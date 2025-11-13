@@ -26,8 +26,3 @@ openLetter.addEventListener("click", () => {
 card.addEventListener("click", () => {
   card.classList.toggle("open");
 });
-
-// soporte móvil
-card.addEventListener("touchstart", () => {
-  card.classList.toggle("open");
-});
