@@ -21,6 +21,8 @@
   <body>
     <!-- 🎁 Escena 1 -->
     <section id="gift-screen" class="homeSection">
+      <h2>Toca para abrir el <span class="glow">regalo</span> 🎁</h2>
+
       <dotlottie-wc
         id="gift"
         src="https://lottie.host/da61c113-6871-4921-8bf8-efbfa86ce0a1/asBAMKvBgT.lottie"
@@ -29,45 +31,49 @@
         loop
       >
       </dotlottie-wc>
-      <h2>Toca para abrir tu regalo 🎁</h2>
       <audio id="bg-music" src="assets/musica.mp3" loop></audio>
     </section>
 
     <!-- 🎂 Escena 2 -->
     <section id="birthday-screen" class="hidden birthdaySection">
-      <h1>🎉 ¡Feliz Cumpleaños, mi amor! 🎂</h1>
-      <div class="pyro">
-        <div class="before"></div>
-        <div class="after"></div>
+      <h2>
+        🎉 ¡Feliz Cumpleaños, <br /><span class="love">Mi amor! </span> 🎂
+      </h2>
+      <div class="pastel">
+        <div class="pyro">
+          <div class="before"></div>
+          <div class="after"></div>
+        </div>
+        <div class="box">
+          <div class="plate"></div>
+          <div class="layer">
+            <div class="fill"></div>
+          </div>
+          <div class="layer">
+            <div class="fill"></div>
+          </div>
+          <div class="icing">
+            <div class="icing-sm"></div>
+            <div class="icing-sm"></div>
+            <div class="icing-sm"></div>
+            <div class="icing-sm"></div>
+            <div class="icing-sm"></div>
+            <div class="icing-sm"></div>
+          </div>
+          <div class="candles">
+            <div class="candle">
+              <div class="flame"></div>
+            </div>
+            <div class="candle">
+              <div class="flame"></div>
+            </div>
+            <div class="candle">
+              <div class="flame"></div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="box">
-        <div class="plate"></div>
-        <div class="layer">
-          <div class="fill"></div>
-        </div>
-        <div class="layer">
-          <div class="fill"></div>
-        </div>
-        <div class="icing">
-          <div class="icing-sm"></div>
-          <div class="icing-sm"></div>
-          <div class="icing-sm"></div>
-          <div class="icing-sm"></div>
-          <div class="icing-sm"></div>
-          <div class="icing-sm"></div>
-        </div>
-        <div class="candles">
-          <div class="candle">
-            <div class="flame"></div>
-          </div>
-          <div class="candle">
-            <div class="flame"></div>
-          </div>
-          <div class="candle">
-            <div class="flame"></div>
-          </div>
-        </div>
-      </div>
+
       <button id="open-letter">Abrir carta 💌</button>
     </section>
 
